@@ -1,0 +1,60 @@
+* {
+  margin-block: ;
+}
+.huree {
+  background-color: black;
+  width: 1440px;
+  /display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 1204px;
+  height: 43.5px;
+}
+.nav a {
+  color: white;
+  width: 100px;
+  height: 20px;
+
+  text-align: center;
+}
+
+.nav {
+  background-color: red;
+  gap: 24px;
+  display: flex;
+  align-items: center;
+}
+.en {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.icon {
+  width: 20px;
+  height: 40px;
+  align-items: center;
+  display: flex;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 773px;
+  width: 1440px;
+}
+.hero1 {
+  background-color: blue;
+  width: 618px;
+  height: 394px;
+}
