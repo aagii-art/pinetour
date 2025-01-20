@@ -1,21 +1,26 @@
-* {
-  margin-block: ;
+*{
+  margin-inline: auto;
+   padding: 0;
+   margin: 0;
+   
 }
 .huree {
-  background-color: black;
+
   width: 1440px;
-  /display: flex;
-  justify-content: center;
-  align-items: baseline;
+ 
+    margin-inline: auto;
 }
 header {
-  background-color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  margin-top: 30px;
   width: 1204px;
   height: 43.5px;
+}
+.tour{
+  width: 101px;
+  height: 35px;
 }
 .nav a {
   color: white;
@@ -26,7 +31,7 @@ header {
 }
 
 .nav {
-  background-color: red;
+  
   gap: 24px;
   display: flex;
   align-items: center;
@@ -47,14 +52,56 @@ header {
   display: flex;
 }
 .hero {
+  
+  height: 773px;
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+
+  width: 1440px;
+  background: url("./zuragnuud/HeroImage.png");
+}
+.hero1{
+  height: 394px;
+ margin-top: 169px;
+
+margin-left: 410px;
+margin-right: 410px;
+  width: 618px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.h11{
+  width: 618px;
+  height: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 773px;
-  width: 1440px;
+  font-family: "Bebas Neue", serif;
+  font-size: 80px;
+  font-weight: 400px;
+  color: white;
+
 }
-.hero1 {
-  background-color: blue;
+.h12{
+height: 259px;
   width: 618px;
-  height: 394px;
+  display: flex;
+  font-weight: 400;
+  color: white;
+  font-family: "Bebas Neue", serif;
+  justify-content: center;
+  font-size: 250px ;
+}
+.h13{
+  height: 64px;
+  font-size: 64px;
+  text-align:center;
+  color: white;
+}
+.limg{
+width: 1440px;
+height: 500px;
+background: url( "./zuragnuud/Location\ image.png")  ;
 }
