@@ -1,14 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 *{
   margin-inline: auto;
-   padding: 0;
-   margin: 0;
-   
+  padding: 0;
+  margin: 0;
 }
 .huree {
-
   width: 1440px;
- 
-    margin-inline: auto;
+  margin-inline: auto;
 }
 header {
   display: flex;
@@ -17,6 +16,8 @@ header {
   margin-top: 30px;
   width: 1204px;
   height: 43.5px;
+  position:fixed;
+  z-index: 1;
 }
 .tour{
   width: 101px;
@@ -26,12 +27,10 @@ header {
   color: white;
   width: 100px;
   height: 20px;
-
+  text-decoration:none;
   text-align: center;
 }
-
 .nav {
-  
   gap: 24px;
   display: flex;
   align-items: center;
@@ -51,22 +50,19 @@ header {
   align-items: center;
   display: flex;
 }
-.hero {
-  
+.hero { 
   height: 773px;
   display: flex; 
   flex-direction: column;
   align-items: center;
-
   width: 1440px;
   background: url("./zuragnuud/HeroImage.png");
 }
 .hero1{
   height: 394px;
- margin-top: 169px;
-
-margin-left: 410px;
-margin-right: 410px;
+  margin-top: 169px;
+  margin-left: 410px;
+  margin-right: 410px;
   width: 618px;
   display: flex;
   justify-content: center;
@@ -82,10 +78,10 @@ margin-right: 410px;
   font-size: 80px;
   font-weight: 400px;
   color: white;
-
+  opacity:0.5;
 }
 .h12{
-height: 259px;
+  height: 259px;
   width: 618px;
   display: flex;
   font-weight: 400;
@@ -101,7 +97,134 @@ height: 259px;
   text-align:center;
 }
 .limg{
-width: 1440px;
-height: 500px;
-background: url( "./zuragnuud/Location\ image.png")  ;
+  width: 1440px;
+  height: 500px;
+  display: flex;
+  background: url("./zuragnuud/Location\ image.png");
+  justify-content: center;
+  align-items: center;
+}
+.huree4{
+  width: 1202px;
+  height: 370px;
+  display: flex;
+  column-gap: 40px;
+}
+
+.l1{
+  background: url("./zuragnuud/Hover\ card\ image\ \(1\).png");
+}
+.l2{
+  background: url("./zuragnuud/Untitled.png");
+}
+.l3{
+  background: url("./zuragnuud/Hover\ card\ image\ \(2\).png");
+}
+.l4{
+  background: url("./zuragnuud/Hover\ card\ image.png");
+}
+.img{
+  width: 275px;
+  height: 370px;
+  background-size: cover;
+  background-position:center;
+  border-radius:40px;
+  box-shadow: #1F72AA75 -8px -8px
+ , #1F72AA75 8px 8px;
+ 
+}
+.img:hover{
+  opacity: 0.5;
+}
+.image{
+  width:101px;
+  height:35px;
+}
+.tnr{
+   opacity: 0.8;
+  font-size: 37px;
+  font-weight: 400;
+  font-family: "Bebas Neue", serif;
+  width: 232px;
+  text-align: center;
+  color: white;
+}
+.hiid{
+  opacity: 0.8;
+ font-size: 37px;
+ font-weight: 400;
+ font-family: "Bebas Neue", serif;
+ width: 232px;
+ text-align: center;
+ color: white;
+}
+.nuur{
+  opacity: 0.8;
+ font-size: 37px;
+ font-weight: 400;
+ font-family: "Bebas Neue", serif;
+ width: 232px;
+ text-align: center;
+ color: white;
+}
+.togoo{
+  opacity: 0.8;
+ font-size: 37px;
+ font-weight: 400;
+ font-family: "Bebas Neue", serif;
+ width: 232px;
+ text-align: center;
+ color: white;
+}
+
+.l1.img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+width: 275px;
+}
+.l2.img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+width: 275px;
+}
+.l3.img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+width: 275px;
+}
+.l4.img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+width: 275px;
+}
+.destination{
+  height: 1022px;
+  position: relative;
+  background: url(./zuragnuud/Roadmap\ image.png);
+  font-family: inter, serif ;
+
+}
+.dhdr{
+display: flex;
+align-items: center;
+flex-direction: column;
+padding-top: 120px;
+row-gap: 10px;
+}
+.dhdr h2{
+  font-size: 42px;
+  font-weight: 600;
+}
+.dhdr h6{
+  opacity: 0.7;
+  font-weight: 500;
+  font-size: 20px;
 }
