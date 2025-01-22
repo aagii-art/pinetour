@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
   margin-inline: auto;
   padding: 0;
   margin: 0;
@@ -16,10 +16,10 @@ header {
   margin-top: 30px;
   width: 1204px;
   height: 43.5px;
-  position:fixed;
+  position: fixed;
   z-index: 1;
 }
-.tour{
+.tour {
   width: 101px;
   height: 35px;
 }
@@ -27,7 +27,7 @@ header {
   color: white;
   width: 100px;
   height: 20px;
-  text-decoration:none;
+  text-decoration: none;
   text-align: center;
 }
 .nav {
@@ -50,15 +50,15 @@ header {
   align-items: center;
   display: flex;
 }
-.hero { 
+.hero {
   height: 773px;
-  display: flex; 
+  display: flex;
   flex-direction: column;
   align-items: center;
   width: 1440px;
   background: url("./zuragnuud/HeroImage.png");
 }
-.hero1{
+.hero1 {
   height: 394px;
   margin-top: 169px;
   margin-left: 410px;
@@ -68,7 +68,7 @@ header {
   justify-content: center;
   flex-direction: column;
 }
-.h11{
+.h11 {
   width: 618px;
   height: 80px;
   display: flex;
@@ -78,9 +78,9 @@ header {
   font-size: 80px;
   font-weight: 400px;
   color: white;
-  opacity:0.5;
+  opacity: 0.5;
 }
-.h12{
+.h12 {
   height: 259px;
   width: 618px;
   display: flex;
@@ -88,15 +88,15 @@ header {
   color: white;
   font-family: "Bebas Neue", serif;
   justify-content: center;
-  font-size: 250px ;
+  font-size: 250px;
 }
-.h13{
+.h13 {
   height: 64px;
   font-size: 64px;
   color: white;
-  text-align:center;
+  text-align: center;
 }
-.limg{
+.limg {
   width: 1440px;
   height: 500px;
   display: flex;
@@ -104,44 +104,42 @@ header {
   justify-content: center;
   align-items: center;
 }
-.huree4{
+.huree4 {
   width: 1202px;
   height: 370px;
   display: flex;
   column-gap: 40px;
 }
 
-.l1{
+.l1 {
   background: url("./zuragnuud/Hover\ card\ image\ \(1\).png");
 }
-.l2{
+.l2 {
   background: url("./zuragnuud/Untitled.png");
 }
-.l3{
+.l3 {
   background: url("./zuragnuud/Hover\ card\ image\ \(2\).png");
 }
-.l4{
+.l4 {
   background: url("./zuragnuud/Hover\ card\ image.png");
 }
-.img{
+.img {
   width: 275px;
   height: 370px;
   background-size: cover;
-  background-position:center;
-  border-radius:40px;
-  box-shadow: #1F72AA75 -8px -8px
- , #1F72AA75 8px 8px;
- 
+  background-position: center;
+  border-radius: 40px;
+  box-shadow: #1f72aa75 -8px -8px, #1f72aa75 8px 8px;
 }
-.img:hover{
+.img:hover {
   opacity: 0.5;
 }
-.image{
-  width:101px;
-  height:35px;
+.image {
+  width: 101px;
+  height: 35px;
 }
-.tnr{
-   opacity: 0.8;
+.tnr {
+  opacity: 0.8;
   font-size: 37px;
   font-weight: 400;
   font-family: "Bebas Neue", serif;
@@ -149,82 +147,163 @@ header {
   text-align: center;
   color: white;
 }
-.hiid{
+.hiid {
   opacity: 0.8;
- font-size: 37px;
- font-weight: 400;
- font-family: "Bebas Neue", serif;
- width: 232px;
- text-align: center;
- color: white;
+  font-size: 37px;
+  font-weight: 400;
+  font-family: "Bebas Neue", serif;
+  width: 232px;
+  text-align: center;
+  color: white;
 }
-.nuur{
+.nuur {
   opacity: 0.8;
- font-size: 37px;
- font-weight: 400;
- font-family: "Bebas Neue", serif;
- width: 232px;
- text-align: center;
- color: white;
+  font-size: 37px;
+  font-weight: 400;
+  font-family: "Bebas Neue", serif;
+  width: 232px;
+  text-align: center;
+  color: white;
 }
-.togoo{
+.togoo {
   opacity: 0.8;
- font-size: 37px;
- font-weight: 400;
- font-family: "Bebas Neue", serif;
- width: 232px;
- text-align: center;
- color: white;
+  font-size: 37px;
+  font-weight: 400;
+  font-family: "Bebas Neue", serif;
+  width: 232px;
+  text-align: center;
+  color: white;
 }
 
-.l1.img{
+.l1.img {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-width: 275px;
+  width: 275px;
 }
-.l2.img{
+.l2.img {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-width: 275px;
+  width: 275px;
 }
-.l3.img{
+.l3.img {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-width: 275px;
+  width: 275px;
 }
-.l4.img{
+.l4.img {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-width: 275px;
+  width: 275px;
 }
-.destination{
+.destination {
   height: 1022px;
   position: relative;
   background: url(./zuragnuud/Roadmap\ image.png);
-  font-family: inter, serif ;
-
+  font-family: inter, serif;
 }
-.dhdr{
-display: flex;
-align-items: center;
-flex-direction: column;
-padding-top: 120px;
-row-gap: 10px;
+.dhdr {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 120px;
+  row-gap: 10px;
 }
-.dhdr h2{
+.dhdr h2 {
   font-size: 42px;
   font-weight: 600;
 }
-.dhdr h6{
+.dhdr h6 {
   opacity: 0.7;
   font-weight: 500;
   font-size: 20px;
+}
+.dp {
+  margin: 60px 121px 0;
+}
+.dp51 {
+  background-color: rgba(238, 233, 217, 0.8);
+  width: 513px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 9999px;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+.sb h5 {
+  font-size: 24px;
+  font-weight: 500;
+}
+.day {
+  height: 52px;
+  width: 52px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+.ub {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+}
+.ub h6 {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Montserrat", serif;
+}
+
+.pin {
+  width: 14px;
+  height: 14px;
+}
+.dp52 {
+  width: 513px;
+  background-color: rgba(139, 184, 193, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 9999px;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+.dp53 {
+  background-color: rgba(170, 216, 215, 0.8);
+  width: 513px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 9999px;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+.dp54 {
+  background-color: rgba(139, 192, 189, 0.8);
+  width: 513px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 9999px;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+.dp55 {
+  background-color: rgba(151, 204, 224, 0.8);
+  width: 513px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 9999px;
+  padding: 30px;
+  margin-bottom: 20px;
 }
