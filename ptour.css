@@ -421,6 +421,11 @@ header {
   left: 1167px;
   top: 450px;
 }
+.khorgiintogoo{
+  top: 420px;
+  left: 790px;
+  position: absolute;
+}
 button {
   width: 100%;
   background-color: #a4d1e2;
@@ -441,4 +446,77 @@ button {
 .footer1 img {
   width: 24px;
   height: 24px;
+}
+.footer1{
+  padding-block: 10px;
+  width: 160px;
+  font-size: 18px;
+  font-family:  "Montserrat", serif;
+  column-gap: 10px;
+  font-weight: 700;
+  color: #6972b5;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  border-radius: 99999999px;
+ justify-content: center;
+}
+.footer2{
+  padding-block: 10px;
+  width: 160px;
+  font-size: 18px;
+  font-family:  "Montserrat", serif;
+  column-gap: 10px;
+  font-weight: 700;
+  color: #6972b5;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  border-radius: 99999999px;
+ justify-content: center;
+}
+.footer2 img {
+  width: 24px;
+  height: 24px;
+}
+.footer3 img{
+  width: 101px;
+  height: 35px;
+  padding-left: 717px;
+}
+.fcenter1:hover{
+  box-shadow: rgba(97, 94, 93, 0.953) 8px 8px,
+   rgba(97, 94, 93, 0.953) -8px -8px;
+}
+.z{
+  display: none;
+  width: 220px;
+  height: 220px;
+  position: absolute;
+}
+.p:hover {
+  border: white 3px solid;
+}
+.p:hover .z{
+  display: block;
+}
+.abayasgalant{
+  top: 200px;
+  left: 900px;
+}
+.terkhn{
+  top: 450px;
+  left: 800px;
+}
+.khuvsguln{
+  top: 150px;
+  left: 700px;
+}
+.khorgiintogoo{
+  top: 300px;
+  left: 700px;
+}
+.sbaatar{
+  top: 400px;
+  left: 1100px;
 }
