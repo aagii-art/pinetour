@@ -307,81 +307,138 @@ header {
   padding: 30px;
   margin-bottom: 20px;
 }
-.final{
+.final {
   background: url("./zuragnuud/Price&Footer\ image.png");
   height: 1120px;
-  font-family: "Inter", serif;;
+  font-family: "Inter", serif;
 }
 .fhdr {
   text-align: center;
   padding-top: 40px;
   padding-bottom: 80px;
-  
 }
-.fhdr h2{
+.fhdr h2 {
   font-size: 42px;
   font-weight: 600;
 }
-.fhdr h5{
+.fhdr h5 {
   font-size: 20px;
   font-weight: 500;
   opacity: 0.7;
-margin-top: 10px;
-} 
-.fcenter{
+  margin-top: 10px;
+}
+.fcenter {
   display: flex;
   justify-content: center;
   margin-bottom: 116px;
   column-gap: 24px;
 }
-.fcenter1{
+.fcenter1 {
   width: 384px;
   background-color: white;
   padding: 32px 24px 48px;
+  border-radius: 40px;
+  cursor: pointer;
 }
- .cntr1{
+.cntr1 {
   display: flex;
   column-gap: 16px;
   font-size: 18px;
   margin-bottom: 24px;
 }
-.cntr1 img{
+.cntr1 img {
   width: 36px;
   height: 36px;
 }
-.cntr1 h5{
+.cntr1 h5 {
   font-weight: 600;
   display: flex;
   align-items: center;
 }
-.cntr2{
+.cntr2 {
   padding-block: 12px 30px;
 }
-.cntr2 img{
+.cntr2 img {
   width: 20px;
   height: 15px;
 }
-.cntr2 h3{
-  font-family: "Montserrat", serif;;
+.cntr2 h3 {
+  font-family: "Montserrat", serif;
   font-size: 40px;
   font-weight: 600;
 }
-.cntr2 h4{
+.cntr2 h4 {
   font-size: 18px;
   font-weight: 500;
   margin-left: 40px;
   margin-bottom: 16px;
 }
-.cntr2 h6{
+.cntr2 h6 {
   font-size: 16px;
   font-weight: 500;
   margin-block: 10px 32px;
-  color: #919191;;
+  color: #919191;
 }
-.list{
-row-gap: 16px;
-display: flex;
-flex-direction: column;
-color: #3f4145;
-font-weight: 500;
+.list {
+  row-gap: 16px;
+  display: flex;
+  flex-direction: column;
+  color: #3f4145;
+  font-weight: 500;
+}
+.erdenet {
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  left: 990px;
+  top: 290px;
+}
+.khuvsgul {
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  left: 749px;
+  top: 230px;
+}
+.arkhangai {
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  left: 790px;
+  top: 420px;
+}
+.terkh {
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  left: 890px;
+  top: 520px;
+}
+.ulaanbaatar {
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  left: 1167px;
+  top: 450px;
+}
+button {
+  width: 100%;
+  background-color: #a4d1e2;
+  padding-block: 14px;
+  border-radius: 99999999px;
+  border: none;
+}
+
+.fcenter1:hover > button {
+  background-color: black;
+  color: white;
+}
+.footer {
+  column-gap: 20px;
+  display: flex;
+  padding: 80px 120px;
+}
+.footer1 img {
+  width: 24px;
+  height: 24px;
 }
